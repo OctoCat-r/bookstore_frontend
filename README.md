@@ -50,6 +50,13 @@ This project showcases a fully functional e-commerce store for books, featuring:
 - Responsive design for optimal viewing across devices
 
 
+## Remaining Things to Do
+
+- **Implement filtering:** Allow users to filter books based on various criteria (e.g., genre, price) though filter based on sort is done.
+- **Store cart details in the backend:** Persist cart information for user sessions and order processing.
+- **Add wishlist functionality:** Enable users to save books for later reference or purchase.
+
+
 
 
 
