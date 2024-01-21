@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import image1 from "../assets/image.jpg";
+// import image1 from "../assets/Image.jpg";
 import { AuthContext } from "../context/AuthContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -30,9 +30,13 @@ const Login = () => {
   return (
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-15 lg:px-8 ">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm mt-10 py-5 ">
-          <img className="mx-auto h-20 w-auto" src={image1} alt="bookStore" />
-          <h2 className=" text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 mt-10">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm  py-5 ">
+          <img
+            className="mx-auto h-30 w-auto"
+            src="https://i.pinimg.com/originals/95/f8/58/95f8588d6469a16271ea2d2fad419d00.png"
+            alt="bookStore"
+          />
+          <h2 className=" text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 ">
             Sign in to your account
           </h2>
         </div>
