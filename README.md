@@ -7,7 +7,7 @@ This project showcases a fully functional e-commerce store for books, featuring:
 - Interactive UI with React Material UI components
 - Responsive design for different screen sizes
 - Search functionality by title, author, or category
-- Login and signup for user authentication
+- Login and signup for user authentication using JWT 
 - Pagination for handling large book collections
 - Context API for efficient data sharing
 - Admin panel for CRUD operations on books
@@ -17,3 +17,41 @@ This project showcases a fully functional e-commerce store for books, featuring:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/OctoCat-r/bookstore_frontend.git]
+   
+2. Navigate to the project directory:
+   ```bash
+   cd bookstore_frontend
+
+3. Install dependencies:
+   ```bash
+   npm install -f
+
+## SetUp
+
+1.   Start the server
+     ```bash
+     npm run dev
+     
+2. Access the application: Open http://localhost:5173
+
+## Key Technologies
+
+- React
+- Tailwind CSS
+- React Material UI
+- Headless UI
+
+## Features
+
+- Book browsing and exploration
+- User account management (login, signup)
+- Book search by title, author, or category
+- Admin panel for book management (CRUD operations)
+- Responsive design for optimal viewing across devices
+
+
+
+
+
+
+
