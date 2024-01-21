@@ -49,6 +49,9 @@ This project showcases a fully functional e-commerce store for books, featuring:
 - Admin panel for book management (CRUD operations)
 - Responsive design for optimal viewing across devices
 
+#Admin Details:
+- username = Admin123
+- password = Admin@123
 
 ## Remaining Things to Do
 
