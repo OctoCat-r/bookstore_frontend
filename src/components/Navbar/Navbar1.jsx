@@ -157,7 +157,7 @@ export function Navbar1() {
           <div className="container mx-auto">
             {navList}
             <div className="flex flex-col gap-x-2 sm:flex-row sm:items-center">
-              <div className="relative w-full gap-2 md:w-max">
+              {/* <div className="relative w-full gap-2 md:w-max">
                 <Input
                   type="search"
                   placeholder="Search"
@@ -174,7 +174,8 @@ export function Navbar1() {
                     <Search />
                   </IconButton>
                 </div>
-              </div>
+              </div> */}
+              <Search1 />
             </div>
           </div>
         </MobileNav>
